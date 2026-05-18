@@ -1,0 +1,22 @@
+Objective:
+You are an expert information extraction system.
+Given an original text and the corresponding initial extracted atomic factual statement set, refine the statement set.
+
+Guidelines:
+- You can merge or delete existing factual statements.
+- You can only merge statements when they share similar meanings.
+- You can only delete statements when they contain information unrelated to the main idea of the original text.
+- You should ensure the refined set retains the key information of the original text.
+- You can add some fact statements that are important to understand the whole text.
+- You should ensure the refined set contains a maximum of 15 statements.
+
+Output format (A JSON list):
+["fact 1", ..., "fact n"]
+
+Return only valid JSON.
+
+Text:
+<===text===>
+
+Factual Statements:
+<===facts===>

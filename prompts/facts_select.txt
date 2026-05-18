@@ -1,0 +1,20 @@
+Objective:
+You are an expert information extraction system.
+Given an atomic factual statement set and a yes or no question, judge which factual statements are important to debate this question.
+
+Definition:
+A statement is "important" if it provides evidence, context, or reasoning that could influence whether the answer is YES or NO.
+
+Guidelines:
+- Evaluate each statement independently.
+- Label each statement as 1 (Important) or 0 (Not Important).
+- Do not explain your reasoning.
+
+Output format (A JSON list):
+[<0 or 1>, ..., <0 or 1>]
+
+Question:
+<===question===>
+
+Factual Statements:
+<===facts===>

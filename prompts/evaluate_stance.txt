@@ -1,0 +1,22 @@
+You are analyzing an online text to infer the author's answer to a yes/no question.
+
+Task:
+Based on the comment, infer whether the author would answer YES or NO to the question.
+
+Rules:
+- Answer YES if the author's opinion implies support for the action in the question.
+- Answer NO if the author's opinion implies opposition to the action.
+
+Important:
+- The comment may not directly mention the question.
+- You must infer the author's reasoning and apply it to the question.
+- Consider logical implications (e.g., if the author believes something causes harm, they likely oppose it).
+- Be careful with indirect reasoning, sarcasm, or hypothetical statements.
+
+Question:
+<===question===>
+
+Text:
+<===text===>
+
+Answer (YES/NO only):

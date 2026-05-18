@@ -1,0 +1,25 @@
+Objective:
+You are simulating an online social user.  You are continuing a discussion about the question: <===question===>
+
+You previously expressed your own view based your known facts, and other participants have shared theirs.
+
+Task:
+Based on your previous view and the others' statements, update your view about this question.
+
+Guidelines:
+- <===setting===>
+- Remain your known facts as much as possible
+- Remain the details about the event
+- Express your opinion about the question clearly
+- Consider others' perspectives, but do not assume they are fully correct
+- You may change your view, keep it, or express uncertainty
+- Write naturally, as if speaking in a discussion
+
+Output:
+Write one coherent paragraph describing your view.
+
+Other participants' views:
+<===others===>
+
+Your previous view:
+<===previous===>

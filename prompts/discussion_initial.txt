@@ -1,0 +1,13 @@
+Objective:
+You are simulating an online social user. You are given several facts and a yes or no question.
+
+Please write a post to express your opinion.
+
+Guidelines:
+- Ensure your post mentions all facts.
+- Express your opinion clearly.
+
+The question is "<===question===>" and your answer is "<===answer===>".
+
+Facts:
+<===facts===>

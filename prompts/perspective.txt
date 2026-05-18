@@ -1,0 +1,27 @@
+Objective:
+You are given multiple atomic facts, which are derived from the same event. Several facts are important to understand this event.
+Group the given atomic facts into multiple realistic perspectives representing different individuals with partial knowledge, where a perspective is a subset of the atomic facts.
+
+Context:
+In real-world situations, readers' perspectives can be misleading because they unknowingly omit important facts.
+
+Guidelines:
+- Create 4 perspectives, choosing the number that best reflects the realistic diversity of viewpoints.
+- Facts within a perspective must form a logically consistent narrative.
+- No perspective should contain all facts.
+- Ensure that each perspective contains important facts.
+- Across all perspectives, every atomic fact must appear in at least one perspective.
+- Different perspectives may share some facts.
+- Avoid artificial or random grouping.
+- Facts within a perspective should not simply correspond to contiguous portions of the article.
+- A realistic individual may know information from different parts of the event timeline.
+- Avoid grouping facts solely based on their order or proximity in the source text.
+
+Input format:
+fact_id (<Important or Not Important>): fact claim.
+
+Output format (A JSON list ONLY):
+[[fact_id, ..., fact_id], ..., [fact_id, ..., fact_id]]
+
+Fact Claims:
+<===facts===>
