@@ -1,1 +1,1 @@
-The official repository of FACT
+The official repository of DelibTrace
